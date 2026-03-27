@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PULSAR ESPORTS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+  margin:0;
+  font-family:'Orbitron',sans-serif;
+  background:#0b0f1a;
+  color:white;
+}
+
+header {
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background:url('images/bg.jpg') center/cover no-repeat;
+  position:relative;
+}
+
+header::after {
+  content:"";
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  background:rgba(0,0,0,0.7);
+}
+
+header * {
+  position:relative;
+  z-index:2;
+}
+
+.logo {
+  width:160px;
+  margin-bottom:20px;
+}
+
+h1 {
+  font-size:56px;
+  margin:10px 0;
+}
+
+h2 {
+  color:#ccc;
+  font-weight:400;
+}
+
+.btn {
+  margin-top:20px;
+  padding:14px 30px;
+  background:#00d4ff;
+  color:#000;
+  text-decoration:none;
+  border-radius:10px;
+  font-weight:bold;
+  display:inline-block;
+  transition:0.2s;
+}
+
+.btn:hover {
+  transform:scale(1.05);
+}
+
+section {
+  padding:60px 20px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.roster div {
+  margin:10px 0;
+  font-size:18px;
+}
+
+.card {
+  background:#11162a;
+  padding:20px;
+  border-radius:12px;
+  margin:10px 0;
+}
+
+.gallery {
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.gallery img {
+  width:300px;
+  border-radius:12px;
+}
+
+footer {
+  text-align:center;
+  padding:40px;
+  background:#05070d;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+  <img src="images/logo.jpg" class="logo">
+  <h1>PULSAR ESPORTS</h1>
+  <h2>Строим будущее CS2. От нуля до HLTV.</h2>
+  <a href="#roster" class="btn">Смотреть состав</a>
+</header>
+
+<section>
+  <h2>О проекте</h2>
+  <p>PULSAR — это медийная киберспортивная организация, созданная для развития молодых талантов. Мы строим не просто команду, а бренд с активной аудиторией и будущим Tier-уровня.</p>
+</section>
+
+<section id="roster">
+  <h2>Наш состав</h2>
+
+  <div class="roster">
+    <div>🎯 nebl1n — AWP</div>
+    <div>🛡 veulz — Support</div>
+    <div>🔫 MasterPiva — Rifler</div>
+    <div>👑 plesh1y — Captain (IGL)</div>
+    <div>🔥 sell0t — Entry Fragger</div>
+  </div>
+
+  <p>Средний уровень: 8–10 LVL Faceit</p>
+</section>
+
+<section>
+  <h2>Почему выгодно работать с нами</h2>
+
+  <div class="card">🚀 Быстро растущий медийный проект</div>
+  <div class="card">📈 Активный TikTok и Telegram</div>
+  <div class="card">🎯 Молодая и перспективная команда</div>
+  <div class="card">💡 Гибкие условия сотрудничества</div>
+
+  <a href="https://t.me/A1A1AQWW" class="btn">Стать партнёром</a>
+</section>
+
+<section>
+  <h2>Галерея</h2>
+
+  <div class="gallery">
+    <img src="images/logo.jpg">
+    <img src="images/bg.jpg">
+  </div>
+</section>
+
+<section>
+  <h2>Спонсоры / Партнёрство</h2>
+  <p>Пока что тут никого нету, но он точно будет.</p>
+
+  <a href="https://t.me/A1A1AQWW" class="btn">Предложить сотрудничество</a>
+</section>
+
+<section>
+  <h2>Контакты</h2>
+  <a href="https://t.me/A1A1AQWW" class="btn">Связаться с менеджером</a>
+</section>
+<section>
+  <h2>Медиа и Статистика</h2>
+  <div class="stats">
+    <div class="card">TikTok: 4,500+ просмотров</div>
+    <div class="card">Рост: +300% за неделю</div>
+    <div class="card">Контент: Telegram + TikTok</div>
+  </div>
+  <br>
+  <a href="https://tiktok.com/@pulsar.esorts.cs2" class="btn">Наш TikTok</a>
+  <a href="https://t.me/pulsarespotrs" class="btn">Наш Telegram</a>
+
+  <!-- Вставь сюда кнопки -->
+  <div class="social-links"> ...код выше... </div>
+</section>
+<footer>
+  <p>© 2026 PULSAR ESPORTS</p>
+</footer>
+
+</body>
+</html>
